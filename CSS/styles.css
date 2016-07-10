@@ -264,27 +264,28 @@ input[name='name'] {
 input[name='email'] {
 	width: 390px;
 	height: 30px;
-	margin-top: 30px;
 }
 textarea[name='message'] {
 	width: 390px;
 	height: 285px;
-	margin-top: 30px;
 }
-.post-form:after {
+.row:after {
 	content: '';
 	display: table;
 	width: 100%;
 	clear: both;
 }
-.post-form label {
-	float: left;
-	display: inline;
+.row {
+	margin-top: 30px;
 }
-.post-form input {
+.row label {
+	float: left;
+	width: 130px;
+}
+.row input {
 	float: right;
 }
-.post-form textarea {
+.row textarea {
 	float: right;
 }
 .contacts b {
